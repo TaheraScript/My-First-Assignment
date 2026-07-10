@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+    padding:23.5px 115.5px ;
+}
+ul{
+    display: flex;
+  list-style: none;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #585858;
+}
+button{
+  height :38px;
+   width: 160px;
+ background-color: #1D4ED8;
+ border-radius: 10px;
+ color:white;
+ border: none;  
+ 
+}
