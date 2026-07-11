@@ -94,116 +94,58 @@ div h1{
     top: -150px;
 }
 /* meet-the-speaker css */
-#speaker{
-    font-size: 56px;
+  .meet-the-speaker-parent{
     text-align: center;
-     font-family: "Inter", sans-serif;
-     /* height: 65px;
-     width: 514 px; */
-     margin-bottom: 50px;
-     font-weight: 700;
-    /* padding: 60px 80px; */
-}
-/* .meet-the-speaker-parent{
-    padding-top: 60px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
-} */
-
-/* #speaker{
-    font-family: "Inter", sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 0;
-    
-} */
-.meet-the-speaker-parent{
-    margin: 60px auto;
-    text-align: center;
-    max-width:1200px;
+    max-width:1400px;
     margin:auto;
     padding: 60px 80px 80px;
 }
-.meet-the-speaker-parent-1{
-    margin: 60px auto;
+
+#speaker{
     text-align: center;
-    max-width:1200px;
-    margin:auto;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 50px;
+    font-weight: 700;
 }
-.box-container-1{
-     margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    gap:8px;
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
 }
-.box-container-1 .box-1{
+.box{
     border: 2px solid #E5E7EB;
-    padding: 2px;
-    border-radius:12px;
+    border-radius: 12px;
+    overflow: hidden;
     text-align: left;
 }
-.box-container-1 .box-1 h6{
-     margin: 5px 0;
+.box img{
+    width: 100%;
+    display: block;
+}
+
+
+.box h6{
+     margin: 20px 20px 8px;
      color: #2563EB;
      font-size:12px;
      font-weight: 600;
      font-family: "Inter", sans-serif;
 }
-.box-container-1 .box-1 h3{
-     margin: 5px 0;
+
+.box h3{
+    margin: 0 20px 10px;
      color: #0D1B2A;
      font-size: 20px;
      font-weight: 700;
      font-family: "Inter", sans-serif;
 }
-.box-container-1 .box-1 p{
-     margin: 5px 0;
+
+.box p{
+   margin: 0 20px 20px;
      color:#575757 ;
      font-size: 14px;
      font-weight: 400;
 font-family: "Inter", sans-serif;
 }
- .meet-the-speaker-parent-2{
-     margin: 60px auto;
-    text-align: center;
-    max-width:1200px;
-    margin:auto;
-}   
-.box-container-2{
-     margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    gap:8px;
-}
-
-.box-container-2 .box-2{
-    border: 2px solid #E5E7EB;
-    padding: 2px;
-    border-radius:12px;
-    text-align: left;
-}
-.box-container-2 .box-2 h6{
-      margin: 5px 0;
-     color: #2563EB;
-     font-size:12px;
-     font-weight: 600;
-     font-family: "Inter", sans-serif;
-
-}
-.box-container-2 .box-2 h3{
-     margin: 5px 0;
-     color: #0D1B2A;
-     font-size: 20px;
-     font-weight: 700;
-     font-family: "Inter", sans-serif;
-}
-.box-container-2 .box-2 p{
-    margin: 5px 0;
-     color:#575757 ;
-     font-size: 14px;
-     font-weight: 400;
-font-family: "Inter", sans-serif;}
-
