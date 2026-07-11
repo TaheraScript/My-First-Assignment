@@ -8,7 +8,6 @@ nav{
     align-items: center;
     background-color:#FFFFFF;
     padding:23.5px 115.5px ;
-    
 }
 ul{
     display: flex;
@@ -28,9 +27,7 @@ a {
  border-radius: 10px;
  color:white;
  border: none;  
-  cursor: pointer;
-   
- 
+  cursor: pointer; 
 }
 #header-button{
     height: 55px;
@@ -43,11 +40,8 @@ a {
     position: relative;
     top:340px;  
     font-size: 18px;    
-    font-weight: 600; 
-     
-
+    font-weight: 600;
 }
-
 .header-button-parent{
     display: flex;
     justify-content: center;
@@ -69,9 +63,7 @@ header {
      background-position: center;
      display: grid;
      justify-content: center;
-      align-items: center;
-       
-  
+      align-items: center; 
 }
 div h1{
   max-height: fit-content;
@@ -81,8 +73,6 @@ div h1{
     height: 95;
     color: #FFFFFF;
    margin-bottom:14px;
-   
-
 }
 .hero-text {
     color: #E6E6E7;
@@ -100,7 +90,6 @@ div h1{
     margin:auto;
     padding: 60px 80px 80px;
 }
-
 #speaker{
     text-align: center;
     font-size: 56px;
@@ -124,8 +113,6 @@ div h1{
     width: 100%;
     display: block;
 }
-
-
 .box h6{
      margin: 20px 20px 8px;
      color: #2563EB;
@@ -133,7 +120,6 @@ div h1{
      font-weight: 600;
      font-family: "Inter", sans-serif;
 }
-
 .box h3{
     margin: 0 20px 10px;
      color: #0D1B2A;
@@ -141,7 +127,6 @@ div h1{
      font-weight: 700;
      font-family: "Inter", sans-serif;
 }
-
 .box p{
    margin: 0 20px 20px;
      color:#575757 ;
