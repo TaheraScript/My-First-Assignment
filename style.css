@@ -9,7 +9,7 @@ nav{
     background-color:#FFFFFF;
     padding:23.5px 115.5px ;
 }
-ul{
+.nav-ul{
     display: flex;
   list-style: none;
   gap: 24px;
@@ -104,7 +104,7 @@ div h1{
     gap: 35px;
 }
 .box{
-    border: 2px solid #E5E7EB;
+    border: 1px solid #E5E7EB;
     border-radius: 12px;
     overflow: hidden;
     text-align: left;
@@ -113,6 +113,7 @@ div h1{
     width: 100%;
     display: block;
 }
+
 .box h6{
      margin: 20px 20px 8px;
      color: #2563EB;
@@ -120,6 +121,7 @@ div h1{
      font-weight: 600;
      font-family: "Inter", sans-serif;
 }
+
 .box h3{
     margin: 0 20px 10px;
      color: #0D1B2A;
@@ -127,10 +129,201 @@ div h1{
      font-weight: 700;
      font-family: "Inter", sans-serif;
 }
+
 .box p{
    margin: 0 20px 20px;
      color:#575757 ;
      font-size: 14px;
      font-weight: 400;
 font-family: "Inter", sans-serif;
+}
+/* secure your spot pattern section */
+.card-ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+.card-container{
+     display: grid;
+     /* justify-content: space-between; */
+     align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+    width: 1160px;
+     margin: 0 auto;
+}
+
+.secure-your-spot-parent{
+    max-width:1400px;
+    margin:auto;
+    padding:80px;
+     text-align: center;
+     height: 444px;
+      padding:32px 32px;
+}
+
+
+.fisrt-cls-1{
+    font-size:48px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#0D1B2A;
+    margin-bottom:16px;
+}
+
+.fisrt-cls-2{
+    font-size:16px;
+    font-weight:400;
+    font-family: "Inter", sans-serif;
+    color:#575757;
+     margin-bottom:60px;
+
+}
+.card{
+    border:1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+     padding:32px 32px;
+     /* padding:40px; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.pro-card{
+    border:1px solid #0D1B2A;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+     padding:32px 32px;
+     /* padding:40px; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background:#0F1C2E;
+    /* color:white; */
+}
+
+.first{
+     
+     color: #888888;
+     font-size:13px;
+     font-weight: 600;
+     font-family: "Inter", sans-serif;
+}
+.second{
+     
+     color: #0D1B2A;
+     font-size:44px;
+     font-weight: 700;
+     font-family: "Inter", sans-serif;
+}
+
+.third{
+     
+     color: #888888;
+     font-size:13px;
+     font-weight: 400;
+     font-family: "Inter", sans-serif;
+}
+.card-ul li{
+     
+     color: #333333;
+     font-size:14px;
+     font-weight: 400;
+     font-family: "Inter", sans-serif;
+}
+.card-ul li::marker {
+    color: #2563EB;
+}
+.pro-card-ul li::marker {
+    color: #2563EB;
+}
+.card-class-btn-1:hover,
+.card-class-btn-3:hover{
+    background:#2563EB;
+    color:white;
+}
+
+.pro-card-class-btn-2:hover{
+    background:#69adf6;
+}
+.card-class-btn-1{
+background-color: white;
+    width: 100%;
+    height: 56px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size:14px;
+    color: #2563EB;;
+    border: 2px solid #2563EB;;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+
+
+.pro-card-class-btn-2{
+     width: 100%;
+    height: 56px;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.card-class-btn-3{
+background-color: white;
+    width: 100%;
+    height: 56px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size:14px;
+    color: #0D1B2A;;
+    border: 2px solid #0D1B2A;;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+
+.pro-card .pro-first{
+     color: #93C5FD;
+     font-size:13px;
+     font-weight: 600;
+     font-family: "Inter", sans-serif;
+}
+.pro-card .pro-second{
+     
+     color: #FFFFFF;
+     font-size:44px;
+     font-weight: 700;
+     font-family: "Inter", sans-serif;
+}
+.pro-card .pro-third{
+     color:#777F87;
+     font-size:13px;
+     font-weight: 400;
+     font-family: "Inter", sans-serif;
+}
+.pro-card .pro-card-ul li{
+    color: #CFD1D4;
+     font-size:14px;
+     font-weight: 400;
+     font-family: "Inter", sans-serif;
+}
+.pro-card hr{
+    border-top:1px solid rgba(255,255,255,.15);
+}
+hr{
+    margin: 24px 0;
+    border: none;
+    border-top: 1px solid #E5E7EB;
 }
