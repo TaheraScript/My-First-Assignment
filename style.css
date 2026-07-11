@@ -333,20 +333,13 @@ hr{
 ========================== */
 
 .hackathon{
-    width:100%;
+    padding:100px 0;
     background:linear-gradient(135deg,#0d1117,#161b22,#1f2937);
-
-    clear:both;
-
-    padding:120px 0 100px;
-    margin-top:80px;
-
-    overflow:hidden;
 }
 
 .hackathon-container{
     width:1160px;
-    margin:0 auto;
+    margin:auto;
 }
 
 .hackathon-heading{
@@ -355,18 +348,16 @@ hr{
 }
 
 .hackathon-heading h2{
-    font-family:"Inter",sans-serif;
-    font-size:48px;
-    font-weight:700;
+    font-size:42px;
     color:#ffffff;
     margin-bottom:18px;
 }
 
 .hackathon-heading p{
-    width:700px;
-    margin:0 auto;
-    color:#cbd5e1;
     font-size:18px;
+    color:#b8c1cc;
+    width:700px;
+    margin:auto;
     line-height:30px;
 }
 
@@ -379,15 +370,19 @@ hr{
 
 .hackathon-card{
     background:#ffffff;
-    border-radius:16px;
+    border-radius:18px;
     padding:35px;
-    text-align:center;
+    transition:0.3s;
+}
+
+.hackathon-card:hover{
+    transform:translateY(-8px);
 }
 
 .hackathon-card h3{
-    color:#111827;
     font-size:24px;
     margin-bottom:18px;
+    color:#111827;
 }
 
 .hackathon-card p{
@@ -397,22 +392,21 @@ hr{
 
 .hackathon-footer{
     background:#ffffff;
-    border-radius:16px;
+    border-radius:20px;
     padding:40px;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 
 .prize-box h3{
-    color:#2563EB;
+    color:#2563eb;
     margin-bottom:10px;
 }
 
 .prize-box h1{
-    color:#111827;
     font-size:52px;
+    color:#111827;
     margin-bottom:10px;
 }
 
@@ -421,15 +415,49 @@ hr{
 }
 
 .join-btn{
-    display:inline-block;
-    background:#2563EB;
+    background:#2563eb;
     color:#ffffff;
+    text-decoration:none;
     padding:18px 40px;
     border-radius:10px;
-    text-decoration:none;
     font-weight:600;
+    transition:0.3s;
 }
 
 .join-btn:hover{
     background:#1d4ed8;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:1200px){
+
+.hackathon-container{
+    width:90%;
+}
+
+.hackathon-heading p{
+    width:100%;
+}
+
+}
+
+@media(max-width:768px){
+
+.hackathon-cards{
+    grid-template-columns:1fr;
+}
+
+.hackathon-footer{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+}
+
+.prize-box h1{
+    font-size:42px;
+}
+
 }
