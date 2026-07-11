@@ -461,3 +461,43 @@ hr{
 }
 
 }
+/* footer section start */
+.container{
+    background:#0D1B2A;
+    padding:40px 80px 20px;
+    color:white;
+}
+
+.div-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left img{
+    width:130px;
+    margin-right: 10px;
+}
+
+.footer-right{
+    text-align:right;
+}
+
+.footer-right a{
+    margin-left:10px;
+}
+
+.footer-right img{
+    width:20px;
+    margin-right: 12px;
+}
+
+.container hr{
+    margin:20px 0;
+    border:1px solid #555;
+}
+
+.container p{
+    text-align:center;
+    font-size:14px;
+}
